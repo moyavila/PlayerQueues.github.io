@@ -2,10 +2,10 @@
 title: Player Queues
 description: Player's Average Waiting Time in a Queue
 url: https://moyavila.github.io/PlayerQueues.github.io/
-#avatar: /avatar.jpeg
+avatar: /avatar.jpg
 paginate: 5
 permalink: pretty
-cover_image: /gamebackground.jpg
+cover_image: /pbg.jpg
 
 # Gems
 plugins:
