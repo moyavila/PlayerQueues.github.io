@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Matching Queue with Uniform Party Sizes
-tags: 
-math: true
 ---
 ```python
 from itertools import combinations
