@@ -5,7 +5,7 @@ url: https://moyavila.github.io/PlayerQueues.github.io/
 avatar: /avatar.jpg
 paginate: 5
 permalink: pretty
-cover_image: /pbg.jpg
+cover_image: /gamebackground.jpg
 
 # Gems
 plugins:
