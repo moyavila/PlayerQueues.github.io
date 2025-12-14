@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Matching Queue with Uniform Party Sizes
-tags: mathjax
+tags: 
 math: true
 ---
 ```python
