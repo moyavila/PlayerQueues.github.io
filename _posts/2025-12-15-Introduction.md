@@ -39,12 +39,12 @@ A queueing system helps calculate the performance of a queue by calculating:
 Below is an example of a Markovian/Markovian/1 Server (M/M/1) Queue. It is evident that the Monte Carlo Simulation is an integral part of a queueing system because as the number of customers in the queue increases, the simulated values becomes almost equal to the theoretical value.
 ![M/M/1 Queue]({{ "/assets/images/mm1.png" | relative_url }})
 
-## -----
+### ----
 
 # Player Queues
-## This webpage focuses on utilizing Monte Carlo Simulation to simulate a Video-Game Queueing System. 
-## Random amount of party sizes containing 1 to 5 players are produced and introduced to the queue. 
-## The objective is to form groups of 5 in order to begin a game. 
-## Through the queueing system, I am trying to find the most efficient and effective way to form these groups.
+### This webpage focuses on utilizing Monte Carlo Simulation to simulate a Video-Game Queueing System. 
+### Random amount of party sizes containing 1 to 5 players are produced and introduced to the queue. 
+### The objective is to form groups of 5 in order to begin a game. 
+### Through the queueing system, I am trying to find the most efficient and effective way to form these groups.
 
-## -------------------
+### ----
