@@ -21,7 +21,7 @@ rng = np.random.default_rng(SEED)
 groupsize = 5
 ```
 
-# Matching Queue Wait Time Test
+#### Matching Queue Wait Time Test
 
 
 ```python
