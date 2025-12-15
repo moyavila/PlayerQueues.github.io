@@ -269,11 +269,3 @@ print(df_wait2.to_string(index=False))
                    500           107           108           104            91            90
                   1000           199           215           207           190           189
 
-
-
-
-
-    
-![Wait-in-Queue histogram](UniformFillingInQueueWaitTime_4_0.png)
-    
-
