@@ -62,22 +62,22 @@ Furthermore, I took into consideration the remaning amount of unmatched parties.
 ```
 Matching Queue with Uniform Party Sizes                     Matching Queue with Geometric Party Sizes
  Number of Parties   Remaining Unmatched Parties              Number of Parties    Remaining Unmatched Parties
-                10                             2                             10                              2
-                20                             5                             20                              3
-                50                             9                             50                              0
-               100                            11                            100                              3                                                 200                             4                            200                              2
-               500                             5                            500                              0
-              1000                            14                           1000                              3
+                10                       2                             10                              2
+                20                       5                             20                              3
+                50                       9                             50                              0
+               100                      11                            100                              3                                                       200                       4                            200                              2
+               500                       5                            500                              0
+              1000                      14                           1000                              3
 
 Filling-In Queue with Uniform Party Sizes                     Filling-In Queue with Geometric Party Sizes
  Number of Parties   Remaining Unmatched Parties              Number of Parties    Remaining Unmatched Parties
-                10                             2                             10                              1
-                20                             5                             20                              4
-                50                             8                             50                              4
-               100                            13                            100                              1
-               200                            14                            200                              2
-               500                            20                            500                              0
-              1000                            28                           1000                              2
+                10                       2                                   10                        1
+                20                       5                                   20                        4
+                50                       8                                   50                        4
+               100                      13                                  100                        1
+               200                      14                                  200                        2
+               500                      20                                  500                        0
+              1000                      28                                 1000                        2
 ```
 
 Additionally, I realized that the Uniform arrivals was able to form more groups than the Geometric arrivals. However, the difference in groups formed is not as significant. Therefore, the Geometric Distribution works better for the arrivals to produce the most efficient and effective process. 
