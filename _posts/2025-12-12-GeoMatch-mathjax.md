@@ -280,18 +280,5 @@ print(df_wait2.to_string(index=False))
                    200            70            37            21            28            44
                    500           159           101            77            57           106
                   1000           319           204           147            99           231
-
-
-
-```python
-plt.figure()
-plt.hist(res['waiting_time'], bins=20, density=True, alpha=0.7)
-plt.xlabel("Wq"); plt.ylabel("density"); plt.title("Wait-in-Queue (Wq) histogram")
-plt.tight_layout(); plt.show()
-```
-
-
-    
-![Wait-in-Queue histogram](GeometricMatchingQueueWaitTime_4_0.png)
     
 
