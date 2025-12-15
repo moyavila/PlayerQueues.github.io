@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Findings
+title: Introduction
 author: Moises Avila
 date: 2025-12-15
 ---
