@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Matching Queue with Uniform Party Sizes
+title: Filling-In Queue with Uniform Party Sizes
 ---
 
 ```python
