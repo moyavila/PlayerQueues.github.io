@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Matching Queue with Geometric Party Sizes
+date: 2025-12-10 10:00
 ---
 
 ```python
