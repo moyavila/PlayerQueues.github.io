@@ -170,6 +170,7 @@ def simulate_parties_matchmaking(
     return results
 ```
 
+#### Testing Different Amount of Parties
 
 ```python
 members = 5
@@ -218,6 +219,8 @@ print(df_wait.to_string(index=False))
 print()
 print(df_wait2.to_string(index=False))
 ```
+
+#### Results
 
     Average Wait Time: 1.51
     Groups Formed: 4
