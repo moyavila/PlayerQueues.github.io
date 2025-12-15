@@ -289,4 +289,4 @@ plt.tight_layout(); plt.show()
 
 
     
-![png](UniformMatchingQueueWaitTime_files/UniformMatchingQueueWaitTime_4_0.png)
+/UniformMatchingQueueWaitTime_4_0.png
