@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Filling-In Queue with Geometric Party Sizes
-date: 2025-12-10 13:00
 ---
 ```python
 from itertools import combinations
