@@ -3,7 +3,7 @@ layout: post
 title: Filling-In Queue with Uniform Party Sizes
 ---
 
-### This code uses a Filling-In Queue, which starts with adding the first arrival to a group, then continues adding the next arrivals until the group of 5 is formed. Otherwise, the other party sizes wait.
+### This code uses a Filling-In Queue, which starts with adding the first arrival to a group, then continues adding the next arrivals until the group of 5 is formed. Otherwise, the party sizes wait in the queue.
 ### The party sizes are created using the Uniform Distribution. 
 
 ```python
