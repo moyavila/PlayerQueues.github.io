@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Filling-In Queue with Uniform Party Sizes
-date: 2025-12-11 13:00
 ---
 
 ```python
