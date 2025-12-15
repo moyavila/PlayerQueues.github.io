@@ -2,7 +2,8 @@
 title: Player Queues
 description: Player's Average Waiting Time in a Queue
                  Moises Avila
-url: https://moyavila.github.io/PlayerQueues/github.io/
+url: https://moyavila.github.io
+baseurl: /PlayQueues
 avatar: /avatar.jpg
 paginate: 6
 paginate_path: "/page:num/"
