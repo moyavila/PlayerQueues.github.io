@@ -3,8 +3,17 @@ layout: default
 ---
 
 {% include home-header.html %}
+<section id="about">
+  <h1>About</h1>
+  <p>
+    <!-- Put your About text here -->
+    This site analyzes player queue waiting times under different queueing models.
+  </p>
 
-<div class="posts">
+  <a href="#data" class="view-data">View Data →</a>
+</section>
+<section id="data">
+  <div class="posts">
   {% for post in paginator.posts %}
   <section class="post-entry">
     <h2 class="post-title">
