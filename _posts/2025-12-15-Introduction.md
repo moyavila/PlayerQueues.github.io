@@ -5,7 +5,7 @@ author: Moises Avila
 tags:
 - jekyll theme
 - jekyll
-date: 2025-12-10 
+date: 2025-12-15 
 ---
 The Jekyll theme **Not Pure Poole** v0.1.0 was released!
 
