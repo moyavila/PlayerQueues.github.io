@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Matching Queue with Uniform Party Sizes
+date: 2025-12-11 10:00
 ---
 ```python
 from itertools import combinations
