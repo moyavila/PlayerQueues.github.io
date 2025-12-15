@@ -27,6 +27,14 @@ layout: default
 
   {{ content }}
 
+<nav class="post-navigation">
+  {% if page.next %}
+    <a class="next-post" href="{{ page.next.url | relative_url }}">
+      Next page → {{ page.next.title }}
+    </a>
+  {% endif %}
+</nav>
+
   {% if page.tags %}
     {% include post-tags.html %}
   {% endif %}
@@ -35,19 +43,3 @@ layout: default
     {% include disqus.html %}
   {% endif %}
 </article>
-
-{% if site.related_posts != empty %}
-<aside class="related">
-  <h2>Related posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title }}
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</aside>
-{% endif %}
