@@ -287,4 +287,4 @@ plt.xlabel("Wq"); plt.ylabel("density"); plt.title("Wait-in-Queue (Wq) histogram
 plt.tight_layout(); plt.show()
 ```
 
-assets/images/UniformMatchingQueueWaitTime_4_0.png
+![Wait-in-Queue histogram]({{ "/assets/images/UniformMatchingQueueWaitTime_4_0.png" | relative_url }})
