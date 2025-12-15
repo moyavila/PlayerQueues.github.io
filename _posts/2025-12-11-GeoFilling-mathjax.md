@@ -2,6 +2,10 @@
 layout: post
 title: Filling-In Queue with Geometric Party Sizes
 ---
+
+### This code uses a Filling-In Queue, which starts with adding the first party size arrival to a group, then continues adding the next arrivals until the group of 5 is formed. Otherwise, the party sizes wait in the queue.
+### The party sizes are created using the Geometric Distribution. 
+
 ```python
 from itertools import combinations
 from collections import Counter
