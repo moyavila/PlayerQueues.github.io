@@ -3,17 +3,8 @@ layout: default
 ---
 
 {% include home-header.html %}
-<section id="about">
-  <h1>About</h1>
-  <p>
-    <!-- Put your About text here -->
-    This site analyzes player queue waiting times under different queueing models.
-  </p>
 
-  <a href="#data" class="view-data">View Data →</a>
-</section>
-<section id="data">
-  <div class="posts">
+<div class="posts">
   {% for post in paginator.posts %}
   <section class="post-entry">
     <h2 class="post-title">
@@ -40,4 +31,15 @@ layout: default
   {%- endif -%}
 </div>
 
-
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
