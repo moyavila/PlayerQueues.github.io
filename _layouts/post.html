@@ -29,7 +29,7 @@ layout: default
 
 <nav class="post-navigation">
   {% if page.previous %}
-    <a class="next-post" href="{{ page.next.url | relative_url }}">
+    <a class="next-post" href="{{ page.previous.url | relative_url }}">
       Next page → {{ page.previous.title }}
     </a>
   {% endif %}
