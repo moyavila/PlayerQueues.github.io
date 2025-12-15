@@ -292,6 +292,6 @@ plt.tight_layout(); plt.show()
 
 
     
-![png](GeometricMatchingQueueWaitTime_files/GeometricMatchingQueueWaitTime_4_0.png)
+![Wait-in-Queue histogram](GeometricMatchingQueueWaitTime_4_0.png)
     
 
