@@ -2,4 +2,8 @@
 layout: home
 ---
 
-<meta http-equiv="refresh" content="0; url={{ '/about/' | relative_url }}">
+<script>
+  if (window.location.pathname === "{{ '/' | relative_url }}") {
+    window.location.replace("{{ '/about/' | relative_url }}");
+  }
+</script>
