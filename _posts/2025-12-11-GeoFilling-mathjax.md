@@ -271,7 +271,3 @@ print(df_wait2.to_string(index=False))
                   1000           319           204           147            99           231
 
 
-    
-![Wait-in-Queue histogram](GeometricFillingInQueueWaitTime_4_0.png)
-    
-
