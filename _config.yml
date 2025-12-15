@@ -5,6 +5,7 @@ description: Player's Average Waiting Time in a Queue
 url: https://moyavila.github.io/PlayerQueues/github.io/
 avatar: /avatar.jpg
 paginate: 6
+paginate_path: "/page:num/"
 permalink: pretty
 cover_image: /gamebackground.jpg
 
