@@ -2,6 +2,10 @@
 layout: post
 title: Matching Queue with Uniform Party Sizes
 ---
+
+### This code uses a Matching Queue, which looks through the party size arrivals as they arrive and tries combining different party sizes to create a group of 5. 
+### The party sizes are created using the Uniform Distribution. 
+
 ```python
 from itertools import combinations
 from collections import Counter
@@ -17,7 +21,7 @@ rng = np.random.default_rng(SEED)
 groupsize = 5
 ```
 
-# Matching Queue Wait Time Test
+#### Matching Queue Wait Time Test
 
 
 ```python
@@ -165,7 +169,7 @@ def simulate_parties_matchmaking(
     }
     return results
 ```
-
+#### Testing Different Amount of Parties
 
 ```python
 members = 5
