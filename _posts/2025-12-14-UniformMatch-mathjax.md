@@ -221,6 +221,7 @@ print(df_wait.to_string(index=False))
 print()
 print(df_wait2.to_string(index=False))
 ```
+#### Results
 
     --- Number of Parties: 10 ---
     Average Wait Time: 1.55
