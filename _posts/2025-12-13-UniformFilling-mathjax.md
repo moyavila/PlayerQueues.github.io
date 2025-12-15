@@ -280,6 +280,6 @@ plt.tight_layout(); plt.show()
 
 
     
-![png](UniformFillingInQueueWaitTime_files/UniformFillingInQueueWaitTime_4_0.png)
+![Wait-in-Queue histogram](UniformFillingInQueueWaitTime_4_0.png)
     
 
