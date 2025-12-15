@@ -2,8 +2,11 @@
 layout: home
 ---
 
-<script>
-  if (window.location.pathname === "{{ '/' | relative_url }}") {
-    window.location.replace("{{ '/about/' | relative_url }}");
-  }
-</script>
+<section id="about">
+  <h1>About</h1>
+  <p>
+    <!-- Your About text here -->
+  </p>
+
+  <a href="#data" class="view-data">View Data →</a>
+</section>
