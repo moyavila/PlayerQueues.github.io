@@ -287,6 +287,4 @@ plt.xlabel("Wq"); plt.ylabel("density"); plt.title("Wait-in-Queue (Wq) histogram
 plt.tight_layout(); plt.show()
 ```
 
-
-    
-image: /UniformMatchingQueueWaitTime_4_0.png
+assets/images/UniformMatchingQueueWaitTime_4_0.png
