@@ -3,6 +3,9 @@ layout: post
 title: Matching Queue with Geometric Party Sizes
 ---
 
+### This code uses a Matching Queue, which looks through the party size arrivals as they arrive and tries combining different party sizes to create a group of 5. Otherwise, the party sizes wait in the queue.
+### The party sizes are created using the Geometric Distribution.
+
 ```python
 from itertools import combinations
 from collections import Counter
