@@ -18,3 +18,5 @@ This is important for Monte Carlo Simulations because we simulate large amounts 
 
 ## Queueing Systems
 Utilizing the logic of Monte Carlo Simulations, we are able to replicate real-world systems such as Queueing Systems.
+
+Queues are 
