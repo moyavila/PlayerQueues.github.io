@@ -32,12 +32,12 @@ layout: default
     <a class="next-post" href="{{ page.previous.url | relative_url }}">
       Next page → {{ page.previous.title }}
     </a>
+  {% else %}
+    <a class="next-post" href="{{ '/about/' | relative_url }}">
+      Next page → Results
+    </a>
   {% endif %}
 </nav>
-
-  {% if page.tags %}
-    {% include post-tags.html %}
-  {% endif %}
 
   {% if jekyll.environment == "production" and site.disqus and page.comments != false %}
     {% include disqus.html %}
