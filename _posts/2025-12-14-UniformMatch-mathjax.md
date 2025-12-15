@@ -280,11 +280,4 @@ print(df_wait2.to_string(index=False))
 
 
 
-```python
-plt.figure()
-plt.hist(res['waiting_time'], bins=20, density=True, alpha=0.7)
-plt.xlabel("Wq"); plt.ylabel("density"); plt.title("Wait-in-Queue (Wq) histogram")
-plt.tight_layout(); plt.show()
-```
 
-![Wait-in-Queue histogram](UniformMatchingQueueWaitTime_4_0.png)
