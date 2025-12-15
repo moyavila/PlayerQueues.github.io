@@ -28,9 +28,9 @@ layout: default
   {{ content }}
 
 <nav class="post-navigation">
-  {% if page.next %}
+  {% if page.previous %}
     <a class="next-post" href="{{ page.next.url | relative_url }}">
-      Next page → {{ page.next.title }}
+      Next page → {{ page.previous.title }}
     </a>
   {% endif %}
 </nav>
